@@ -30,5 +30,6 @@ def listners(app: App):
             uranai = "吉 :neutral_face:"
         elif number <= 9:
             uranai = "凶 :ghost:"
+        print("おみくじの結果→→→→→→→→→→" + uranai)
 
         return uranai
