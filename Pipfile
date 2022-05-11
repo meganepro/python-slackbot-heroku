@@ -12,6 +12,7 @@ ndg-httpsclient = "*"
 pyasn1 = "*"
 urllib3 = "*"
 gunicorn = "*"
+requests = "*"
 
 [dev-packages]
 pytest = "*"
