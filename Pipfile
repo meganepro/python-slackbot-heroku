@@ -13,6 +13,7 @@ pyasn1 = "*"
 urllib3 = "*"
 gunicorn = "*"
 requests = "*"
+pytz = "*"
 
 [dev-packages]
 pytest = "*"
