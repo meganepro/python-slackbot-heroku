@@ -14,6 +14,7 @@ urllib3 = "*"
 gunicorn = "*"
 requests = "*"
 pytz = "*"
+python-dateutil = "*"
 
 [dev-packages]
 pytest = "*"

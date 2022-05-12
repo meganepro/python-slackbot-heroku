@@ -28,6 +28,8 @@ def slack_events():
 # custom actionの設定
 import custom.message
 custom.message.listners(bolt)
+import custom.event_action
+custom.event_action.listners(bolt)
 import custom.event_mention
 custom.event_mention.listners(bolt)
 import custom.event_message
