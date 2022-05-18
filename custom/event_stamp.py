@@ -7,6 +7,8 @@ def listners(app: App):
     # ウザイのでコメントアウト
     @ app.event("reaction_added")
     def handle_reaction_added_events(event, say, logger):
+        # 一旦反応が多くなってしまうので潰しておく
+        return
         # stampがカレンダー(:calendar:)だったらカレンダーを表示してくれる
         if event["reaction"] == "calendar":
             say(
